@@ -28,14 +28,5 @@
 			<artifactId>honorcloud-common</artifactId>
 			<version>${project.version}</version>
 		</dependency>
-		<dependency>
-			<groupId>junit</groupId>
-			<artifactId>junit</artifactId>
-			<scope>test</scope>
-		</dependency>
-		<dependency>
-	      <groupId>com.baomidou</groupId>
-	      <artifactId>mybatis-plus-boot-starter</artifactId>
-	  	</dependency>
 	</dependencies>
 </project>
