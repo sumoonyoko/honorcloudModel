@@ -25,6 +25,7 @@ honorcloud项目是专为王者荣耀-巅峰明月战队研发的官网微服务
 - 日志输出：    logback+slf4j
 - 数据库：      mysql
 - 接口：       RESTful格式
+- 文档：      http://localhost:8080/swagger-ui.html
 
 ## 数据库配置
 ```

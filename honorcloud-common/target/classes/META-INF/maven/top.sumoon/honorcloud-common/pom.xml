@@ -100,11 +100,6 @@
 			<artifactId>velocity-engine-core</artifactId>
 			<version>2.0</version>
 		</dependency>
-		<!-- freemarker 模板引擎 -->
-		<dependency>
-			<groupId>org.freemarker</groupId>
-			<artifactId>freemarker</artifactId>
-		</dependency>
 		<!-- beetl 模板引擎 -->
 		<dependency>
 			<groupId>com.ibeetl</groupId>
