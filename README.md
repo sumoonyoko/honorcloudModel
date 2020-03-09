@@ -17,3 +17,36 @@ honorcloud项目是专为王者荣耀-巅峰明月战队研发的官网微服务
     - [ ] 战队赛组队
     - [ ] 战队内战
     - [ ] 战队开黑
+
+## honorcloud-技术架构介绍
+
+- 编程语言：    java
+- 为核心框架：  springboot+mybtis-plus
+- 日志输出：    logback+slf4j
+- 数据库：      mysql
+- 接口：       RESTful格式
+
+## 数据库配置
+```
+ datasource:
+    url: jdbc:mysql://106.12.216.153:3306/honor?autoReconnect=true&useUnicode=true&characterEncoding=utf8
+    username: root
+    password: Sumoon2812@top
+    driver-class-name: com.mysql.cj.jdbc.Driver
+```
+##  RESTful接口设计
++ 用户登录
+    + QQ登录
+	+ 管理员登录
++ 权限系统
+    + 管理员权限
+    + 用户权限
++ 战绩
+    * 上传
+    * 下载
+    * 查询
++ 组队
+    * 创房间
+    * 加入房间
+    * 退出房间
+	* 解散房间
