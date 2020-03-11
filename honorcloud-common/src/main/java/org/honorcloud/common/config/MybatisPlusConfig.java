@@ -8,7 +8,7 @@ import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
 
 @EnableTransactionManagement
 @Configuration
-@MapperScan("org.honorcloud.*.dao.mapper*")
+@MapperScan("org.honorcloud.dao.*.*Dao")
 public class MybatisPlusConfig {
 	/**
      * 分页插件

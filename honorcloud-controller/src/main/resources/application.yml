@@ -1,12 +1,11 @@
 server:
   port: 8080
 
-customize:
-  index: 
-
 spring:
   profiles: 
      active: local
+  application:
+     name: honorcloud
     #热部署--静态资源立即生效
   jackson:
         #指定日期格式，比如yyyy-MM-dd HH:mm:ss

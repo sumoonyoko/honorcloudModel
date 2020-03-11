@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import com.baomidou.mybatisplus.extension.plugins.PaginationInterceptor;
 
 @Configuration
-@MapperScan("org.honorcloud.*.mapper*")
+@MapperScan("org.honorcloud.dao.*.*Dao")
 public class MybatisPlusConfig {
    /*
     * 分页插件，自动识别数据库类型

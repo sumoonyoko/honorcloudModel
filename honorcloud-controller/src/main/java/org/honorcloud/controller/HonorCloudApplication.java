@@ -1,11 +1,11 @@
 package org.honorcloud.controller;
 
+import org.mybatis.spring.annotation.MapperScan;
 import org.springframework.boot.Banner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.autoconfigure.jdbc.DataSourceAutoConfiguration;
 import org.springframework.boot.autoconfigure.orm.jpa.HibernateJpaAutoConfiguration;
-
 import lombok.extern.slf4j.Slf4j;
 
 /**
@@ -14,6 +14,7 @@ import lombok.extern.slf4j.Slf4j;
  *
  */
 @Slf4j
+@MapperScan(basePackages = "org.honorcloud.dao.*.*Dao")
 @SpringBootApplication(exclude={DataSourceAutoConfiguration.class,HibernateJpaAutoConfiguration.class})
 public class HonorCloudApplication{
     public static void main( String[] args ){
