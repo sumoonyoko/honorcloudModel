@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="com.cn.wjp.mapper.UserMapper">
+
+	<select id="getOpenid" resultType="com.cn.wjp.entity.UserEntity"
+		parameterType="com.cn.wjp.entity.UserEntity">
+		select * from hh where openid = #{openid}
+	</select>
+	<insert id="insertQQ"
+		parameterType="com.cn.wjp.entity.UserEntity">
+		insert into hh(uid, openid, name, image) values(#{uid}, #{openid}, #{name},
+		#{image})
+	</insert>
+	<update id="updateQQ"
+		parameterType="com.cn.wjp.entity.UserEntity">
+		update hh set name = #{name}, image = #{image} where openid = #{openid}
+	</update>
+
+</mapper>

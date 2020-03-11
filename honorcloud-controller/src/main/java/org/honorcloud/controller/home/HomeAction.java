@@ -37,9 +37,9 @@ public class HomeAction {
 	public String index() {
 		return PageConstant.INDEX;
 	}
-	@ApiOperation("根据msg信息跳转对应主页")
-	@RequestMapping("index/{msg}")
-	public String customizeIndex(@ApiParam @PathVariable(value = "msg")int msg) {
+	
+	@RequestMapping("dark/{msg}")
+	public String customizeIndex(@PathVariable(value = "msg")int msg) {
 		if(StringUtils.isNotEmpty(customizeIndex)) {
 			return customizeIndex;
 		}

@@ -1,0 +1,11 @@
+org\honorcloud\controller\config\GeneratorServiceEntity.class
+org\honorcloud\controller\home\HomeAction.class
+org\honorcloud\controller\home\DefaultController.class
+org\honorcloud\controller\home\CustomizeExceptionHandler.class
+org\honorcloud\controller\Swagger2.class
+org\honorcloud\controller\login\controller\QQController.class
+org\honorcloud\controller\album\AlbumAction.class
+org\honorcloud\controller\player\PlayerAction.class
+org\honorcloud\controller\room\RoomAction.class
+org\honorcloud\controller\HonorCloudApplication.class
+org\honorcloud\controller\config\MybatisPlusConfig.class

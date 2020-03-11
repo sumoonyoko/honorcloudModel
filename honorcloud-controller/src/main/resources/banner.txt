@@ -9,7 +9,7 @@
       /:/  /     \:\/:/  /       |::/  /     \:\ \/__/      |:|\/__/  
      /:/  /       \::/  /        /:/  /       \:\__\        |:|  |    
      \/__/         \/__/         \/__/         \/__/         \|__|    
-Application Version: ${project.version}      Spring Boot Version: ${spring-boot.version}
+Application Version: 0.0.1-SNAPSHOT      Spring Boot Version: ${spring-boot.version}
 ////////////////////////////////////////////////////////////////////
 //                          _ooOoo_                               //
 //                         o8888888o                              //
